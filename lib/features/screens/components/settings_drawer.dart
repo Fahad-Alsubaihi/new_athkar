@@ -338,14 +338,16 @@ void _showMiniMessage(BuildContext context, String message,
                               if (c == null) return;
                               await cityProvider.selectCity(c);
 
-                              ReminderScheduler.queueReschedule(
-                                city: c!,
-                                prayersEnabled: settings.prayerReminder,
-                                athkarEnabled: settings.athkarReminder,
-                                l10n: l10n,
-                                // daysAhead: 2,
-                                // debounce: const Duration(seconds: 1),
-                              );
+                              // ReminderScheduler.queueReschedule(
+                              //   city: c!,
+                              //   prayersEnabled: settings.prayerReminder,
+                              //   athkarEnabled: settings.athkarReminder,
+                              //   l10n: l10n,
+                               // // daysAhead: 2,
+                              //  // debounce: const Duration(seconds: 1),
+                              // );
+
+
                               //  if (selected != null) {
                               // await ReminderScheduler.reschedule(
                               //   city: c,
@@ -518,7 +520,7 @@ const SizedBox(height: 16),
                                       }
 
                                       // الإذن موجود -> فعّل ثم أعد الجدولة
-                                      await settings.setAthkarReminder(true);
+                                      await settings.setPrayerReminder(true);
 
                                       final selected = cityProvider.selectedCity ??
                                           (cityProvider.cities.isNotEmpty ? cityProvider.cities.first : null);
@@ -527,7 +529,7 @@ const SizedBox(height: 16),
                                         ReminderScheduler.queueReschedule(
                                           city: selected,
                                           prayersEnabled: settings.prayerReminder,
-                                          athkarEnabled: true,
+                                          athkarEnabled: false,
                                           l10n: l10n,
                                         );
                                       }
