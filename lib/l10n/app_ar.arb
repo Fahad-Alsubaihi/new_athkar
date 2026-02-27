@@ -1,0 +1,106 @@
+{
+  "@@locale": "ar",
+
+  "appName": "أذكاري",
+  "benifit": "المصدر",
+
+  "settings": "الإعدادات",
+  "defaultSettings": "استعادة الإعدادات الإفتراضية",
+  "fontSize":"حجم الخط",
+  "language": "اللغة",
+  "city": "المدينة",
+  "resetProgress": "تصفير تقدّم الأذكار",
+  "resetDone": "تم إعادة ضبط الإعدادات الافتراضية",
+
+  "morningAthkar": "أذكار الصباح",
+  "eveningAthkar": "أذكار المساء",
+
+  "vibrationOn": "مفعّل",
+  "vibrationOff": "مطفّي",
+  "vibrationMode": "اهتزاز عدّاد الأذكار",
+  "vibrationSubtitle": "يهتز مع كل عدّة أثناء الذكر",
+
+  "fajr": "الفجر",
+  "sunrise": "الشروق",
+  "dhuhr": "الظهر",
+  "asr": "العصر",
+  "maghrib": "المغرب",
+  "isha": "العشاء",
+  "jumuah":"الجمعة",
+
+  "remaining":"متبقي",
+  "since":"منذ",
+
+
+  "prayerReminderNotifTitle": "وقت الصلاة",
+  "prayerReminderBody": "دخل الآن وقت صلاة {prayer}",
+  "@prayerReminderBody": {
+    "placeholders": {
+      "prayer": {}
+    }
+  },
+
+  "athkarReminderNotifTitle": "الأذكار",
+  "athkarMorningReminderBody": "حان وقت أذكار الصباح",
+  "athkarEveningReminderBody": "حان وقت أذكار المساء",
+  
+  "reminders": "التنبيهات",
+  "prayerReminderTitle": "تذكير الصلاة",
+  "prayerReminderSubtitle": "تنبيه عند كل صلاة",
+  "athkarReminderTitle": "تذكير الأذكار",
+  "athkarReminderSubtitle": "بعد أذان الفجر والعصر بساعة",
+  "remindersNote": "قد تحتاج السماح بالإشعارات من إعدادات الجهاز.",
+
+  "useMyCurrentLocation": "استخدم موقعي الحالي",
+  "locationPermissionRequired": "فضلاً فعّل خدمات الموقع واسمح للتطبيق بالوصول للموقع",
+  "notificationPermissionRequired": "فضلاً فعّل الإشعارات للسماح للتطبيق بإرسال التنبيهات",
+
+
+
+  "locationUpdating": "جاري تحديد الموقع…",
+  "locationUpdated": "تم تحديث الموقع",
+  "locationUpdateFailed": "تعذر تحديد الموقع.",
+  "lastLocationUpdate": "آخر تحديث",
+  "myCurrentLocation": "موقعي الحالي",
+
+  "nextPrayerAdhan": "متبقي على أذان {prayer} {time}",
+  "@nextPrayerAdhan": {
+    "placeholders": {
+      "prayer": {},
+      "time": {}
+    }
+  },
+  "adhanSince": "أذّن لصلاة {prayer} منذ {minutes} دقيقة",
+"@adhanSince": {
+  "placeholders": {
+    "prayer": {},
+    "minutes": {}
+  }
+},
+
+  "remainingH" : "ساعة",
+  "remainingM" : "دقيقة",
+
+  "calculationMethod": "حسب تقويم أم القرى",
+  "nextPrayerIqama": "متبقي على إقامة {prayer} {time}",
+  "@nextPrayerIqama": {
+    "placeholders": {
+      "prayer": {},
+      "time": {}
+    }
+  },
+  "nextEventIn": "متبقي على {event} {time}",
+"@nextEventIn": {
+  "placeholders": {
+    "event": {},
+    "time": {}
+  }
+},
+"sinceEvent": "{event} منذ {time}",
+"@sinceEvent": {
+  "placeholders": {
+    "event": {},
+    "time": {}
+  }
+}
+}

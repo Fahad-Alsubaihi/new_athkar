@@ -1,0 +1,105 @@
+{
+  "@@locale": "en",
+
+  "appName": "My Athkar",
+  "benifit": "Source",
+
+  "settings": "Settings",
+  "defaultSettings": "Reset to Default",
+  "fontSize":"Font size",
+  "language": "Language",
+  "city": "City",
+  "resetProgress": "Reset Athkar Progress",
+  "resetDone": "Settings restored successfully",
+
+  "morningAthkar": "Morning Athkar",
+  "eveningAthkar": "Evening Athkar",
+
+  "vibrationOn": "Enabled",
+  "vibrationOff": "Disabled",
+  "vibrationMode": "Counter Vibration",
+  "vibrationSubtitle": "Vibrates with each count during athkar",
+
+  "fajr": "fajr",
+  "sunrise": "sunrise",
+  "dhuhr": "dhuhr",
+  "asr": "asr",
+  "maghrib": "maghrib",
+  "isha": "isha",
+  "jumuah":"jumuah",
+
+  "remaining":"remaining",
+  "since":"since",
+
+
+  "prayerReminderNotifTitle": "Prayer Time",
+  "prayerReminderBody": "It is now time for {prayer}",
+  "@prayerReminderBody": {
+    "placeholders": {
+      "prayer": {}
+    }
+  },
+
+  "athkarReminderNotifTitle": "Athkar",
+  "athkarMorningReminderBody": "Time for Morning Athkar",
+  "athkarEveningReminderBody": "Time for Evening Athkar",
+
+  "reminders": "Reminders",
+  "prayerReminderTitle": "Prayer reminders",
+  "prayerReminderSubtitle": "Notify at each prayer time",
+  "athkarReminderTitle": "Athkar reminders",
+  "athkarReminderSubtitle": "1 hour after Fajr and Asr",
+  "remindersNote": "You may need to allow notifications in system settings.",
+
+  "useMyCurrentLocation": "Use my current location",
+  "locationPermissionRequired": "Please enable location services and grant location permission.",
+  "notificationPermissionRequired": "Please enable notifications to allow the app to send alerts",
+
+  "locationUpdating": "Getting your location…",
+  "locationUpdated": "Location updated",
+  "locationUpdateFailed": "Couldn't get your location.",
+  "myCurrentLocation": "My current location",
+
+  "lastLocationUpdate": "Last updated",
+
+  "nextPrayerAdhan": "{prayer} Adhan in {time}",
+  "@nextPrayerAdhan": {
+  "placeholders": {
+    "prayer": {},
+    "time": {}
+    }
+  },
+  "adhanSince": "Adhan for {prayer} was {minutes} min ago",
+"@adhanSince": {
+  "placeholders": {
+    "prayer": {},
+    "minutes": {}
+  }
+},
+  "remainingH": "hour",
+  "remainingM": "minute",
+
+  "calculationMethod": "According to the Umm al-Qura calendar",
+  "nextPrayerIqama": "{prayer} Iqama in {time}",
+  "@nextPrayerIqama": {
+  "placeholders": {
+    "prayer": {},
+    "time": {}
+    }
+  },
+  "nextEventIn": "{event} in {time}",
+"@nextEventIn": {
+  "placeholders": {
+    "event": {},
+    "time": {}
+  }
+},
+"sinceEvent": "{event} since {time}",
+"@sinceEvent": {
+  "placeholders": {
+    "event": {},
+    "time": {}
+  }
+}
+  
+}

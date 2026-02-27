@@ -1,0 +1,84 @@
+[
+  {
+    "name": { "ar": "الرياض", "en": "Riyadh" },
+    "latitude": 24.6333,
+    "longitude": 46.7167
+  },
+  {
+    "name": { "ar": "جدة", "en": "Jeddah" },
+    "latitude": 21.5433,
+    "longitude": 39.1728
+  },
+  {
+    "name": { "ar": "مكة", "en": "Mecca" },
+    "latitude": 21.4225,
+    "longitude": 39.8233
+  },
+  {
+    "name": { "ar": "المدينة المنورة", "en": "Medina" },
+    "latitude": 24.47,
+    "longitude": 39.61
+  },
+  {
+    "name": { "ar": "الدمام", "en": "Dammam" },
+    "latitude": 26.4333,
+    "longitude": 50.1
+  },
+  {
+    "name": { "ar": "الخبر", "en": "Khobar" },
+    "latitude": 26.2794,
+    "longitude": 50.2083
+  },
+  {
+    "name": { "ar": "الجبيل", "en": "Al Jubayl" },
+    "latitude": 27.0,
+    "longitude": 49.6544
+  },
+
+  {
+    "name": { "ar": "بريدة", "en": "Buraydah" },
+    "latitude": 26.3333,
+    "longitude": 43.9667
+  },
+  {
+    "name": { "ar": "عنيزة", "en": "Unaizah" },
+    "latitude": 26.1,
+    "longitude": 43.9
+  },
+  {
+    "name": { "ar": "الخرج", "en": "Al Kharj" },
+    "latitude": 24.1556,
+    "longitude": 47.312
+  },
+  {
+    "name": { "ar": "المجمعة", "en": "Al Majmaah" },
+    "latitude": 25.9,
+    "longitude": 45.35
+  },
+
+  {
+    "name": { "ar": "أبها", "en": "Abha" },
+    "latitude": 18.2169,
+    "longitude": 42.5053
+  },
+  {
+    "name": { "ar": "تبوك", "en": "Tabuk" },
+    "latitude": 28.3972,
+    "longitude": 36.5789
+  },
+  {
+    "name": { "ar": "حائل", "en": "Hail" },
+    "latitude": 27.5167,
+    "longitude": 41.6833
+  },
+  {
+    "name": { "ar": "جازان", "en": "Jazan" },
+    "latitude": 16.8892,
+    "longitude": 42.5611
+  },
+  {
+    "name": { "ar": "نجران", "en": "Najran" },
+    "latitude": 17.4917,
+    "longitude": 44.1322
+  }
+]
